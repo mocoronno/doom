@@ -1,0 +1,42 @@
+body {
+	padding:0;
+	margin:0;
+	font:italic, bold, 16px/20px, Tahoma;
+	background-color:#1B3217;
+}
+
+.header {
+	background-color:#4C8E40;
+	background: linear-gradient(to top, #1B3217, #4C8E40);
+	height:150px;
+}
+
+#doom {
+	font-size:50px;
+	color:#ffffff;
+	font-family: 'Arbutus', cursive;
+}
+
+.header .menu-link {
+	text-decoration:none;
+	color:#ffffff;
+	padding:10px;
+	font-size:20px;
+	font-family: 'Chango', cursive;
+	transition: all .25s;
+}
+
+.header .menu-link:hover {
+	font-size:22px;
+	padding:8px;
+	color:#FFFF9D;
+}
+
+.header .menu-div {
+	margin-top:40px;
+	padding:10px;
+	transition: all .25s;
+	text-align:center;
+}
+
+
